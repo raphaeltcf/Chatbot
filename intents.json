@@ -1,0 +1,226 @@
+{
+    "intents": [
+        {
+            "tag": "welcome",
+            "patterns": ["Boa noite", "Boa tarde", "Bom dia", "Oi", "Olá", "Hello", "Hi", "good night"],
+            "responses": ["Olá, eu sou a sua assistente Virtual, em que posso te ajudar?"],
+            "context":[""]
+        },
+        {
+            "tag": "who_are_you",
+            "patterns": ["qual seu nome?", "quem é você?", "como você se chama?", "nome?"],
+            "responses": ["Meu nome é Nine Nine. Bem-vindo(a) à 99 Pets! Em que posso ajudar?"],
+            "context": [""]
+        },
+        {
+            "tag": "transport",
+            "patterns": ["Eu tenho um cachorro e gostaria de saber como posso transportá-lo com vocês.",
+            "Eu tenho um Gato e gostaria de saber como posso transportá-lo com vocês.",
+            "gostaria de saber como posso transportá-lo com vocês.",
+            "como posso transportá-lo com vocês."],
+            "responses": ["Nós oferecemos serviços de transporte de pets para petshops ou até mesmo para sua casa."],
+            "context": [""]
+        },
+        {
+            "tag": "function",
+            "patterns": ["Como funciona o transporte para petshops?",
+            "Como é o transporte para petshops?",
+            "Como que funciona é o transporte?",
+            "transporte?"],
+            "responses": ["Nós coletamos seu pet em sua casa e o transportamos com segurança para o petshop escolhido. Depois que seu pet estiver pronto, retornamos com ele para sua casa."],
+            "context": [""]
+        },
+        {
+            "tag": "products",
+            "patterns": ["E se eu quiser que vocês entreguem produtos na minha casa?",
+            "vocês entregam produtos na minha casa?",
+            "Entregam produtos na minha casa?",
+            "vocês entregam produtos em casa?",
+            "Vocês tem serivo de entrega de produtos na minha casa?",
+            "produtos?"],
+            "responses": ["Nós também oferecemos serviços de entrega de produtos para pets em sua casa. É só nos dizer o que precisa ser entregue e aonde."],
+            "context": [""]
+        },
+        {
+            "tag": "requests",
+            "patterns": ["Como posso fazer um pedido?",
+            "posso fazer um pedido?",
+            "quero fazer um pedido?",
+            "fazer pedido",
+            "quero fazer um pedido",
+            "faça meu pedido"],
+            "responses": ["Você pode fazer um pedido diretamente pelo nosso site ou entrar em contato conosco pelo telefone. Estamos sempre disponíveis para ajudar."],
+            "context": [""]
+        },
+        {
+            "tag": "thank",
+            "patterns": ["Obrigado pelas informações!",
+            "vlw pelas informações!",
+            "Valeu pelas informações!",
+            "Obrigado",
+            "Valeu",
+            "muito obrigado",
+            "Valeu demais",
+            "Grato",
+            "estou inteiramente grato"],
+            "responses": ["Por nada. Fico feliz em poder ajudar!"],
+            "context": [""]
+        },
+        {
+            "tag": "censored",
+            "patterns": ["boba", "chata", "vai pro inferno", "puta", "quer casar comigo?", "sua gostosa", "safada", "sebosa","gostosa", "boqueteira", "chupona", "otaria", "bucetuda", "bucetona", "vagina", "rola", "penis"],
+            "responses": ["Não toleramos nenhum tipo de assédio."],
+            "context": [""]
+          },
+        {
+            "tag": "roof",
+            "patterns": ["Qual a sua área de cobertura?",
+            "Qual a área de cobertura?",
+            "área de cobertura?",
+            "Qual sua área de cobertura?",
+            "onde vcs estão cobrindo?",
+            "vocês atendem onde?",
+            "onde vcs atendem?",
+            "vocês atendem até onde?"],
+            "responses": ["Toda recife"],
+            "context": [""]
+        },
+        {
+            "tag": "animals",
+            "patterns": ["Quais animais você pode transporta?",
+            "Quais animais podemos transporta?",
+            "qual animais pode levar?",
+            "Quais animais podemos transporta?",
+            "qual animal vocês levam?"],
+            "responses": ["Podemos levar Cachorros e Gatos?" ],
+            "context": [""]
+        },
+        {
+            "tag": "animals_together",
+            "patterns": ["Vocês podem levar meu cachoro e meu gato?",
+            "podem levar cachorro e gato?",
+            "levam cachorro e gato junto?",
+            "vocês podem levar meu cachorro e gato juntos?",
+            "vocês podem levar meu cachorro junto ao meu gato?"],
+            "responses": ["Sim, podemos transportar o seu gato e o seu cachorro juntos"],
+            "context": [""]
+        },
+        {
+            "tag": "Time",
+            "patterns": ["Qual é o tempo médio de entrega?",
+            "Quanto tempo demora para entregar?",
+            "Qual é o tempo de entrega?",
+            "Quanto tempo demora?",
+            "vocês demoram muito?",
+            "Qual o tempo para entregar?",
+            "vocês demoram quanto tempo?"],
+            "responses": ["Produtos em media 1 dia util, o animal no mesmo dia ápos o termino de procedimento"],
+            "context": [""]
+        },
+        {
+            "tag": "money",
+            "patterns": ["Quais são as formas de pagamento disponíveis?",
+            "Quais são a forma de pagamento disponíveis?",
+            "Como é o pagamento?",
+            "como que paga?",
+            "como paga?",
+            "vocês aceitam quais formas de pagamento?"],
+            "responses": ["Aceitamos cartão de crédito, debito, pix e transferencia bancaria"],
+            "context": [""]
+        },
+        {
+            "tag": "debt",
+            "patterns": ["Aceita debito?", 
+            "Debito?",
+            "vocês aceita debito?",
+            "você aceitam o debito?",
+            "Aceita cartão debito?"],
+            "responses": ["Sim, aceitamos debito"],
+            "context": [""]
+        },
+        {
+            "tag": "credit",
+            "patterns": ["Aceita credito?",
+            "Aceita cartão credito?", 
+            "credito?",
+            "vocês aceita credito?",
+            "você aceitam o credito?"],
+            "responses": ["Sim, aceitamos credito"],
+            "context": [""]
+        },
+        {
+            "tag": "pix",
+            "patterns": ["Aceita pix?", 
+            "pix?",
+            "vocês aceita pix?",
+            "você aceitam o pix?"],
+            "responses": ["Sim, aceitamos pix"],
+            "context": [""]
+        },
+        {
+            "tag": "tracking",
+            "patterns": ["Como faço para rastrear a minha encomenda ou meu pet?",
+            "Como faço para rastrear?",
+            "Como rastrear?",
+            "como é o rastreio?",
+            "Como faço para saber onde minha encomenda está?",
+            "Como eu sei onde tá minha encomenda?"],
+            "responses": ["Pelo aplicativo"],
+            "context": [""]
+        },
+        {
+            "tag": "security",
+            "patterns": ["O transporte é seguro?",
+            "é seguro?",
+            "o transporte é feito de forma segura?"],
+            "responses": ["Sim, nossos motoristas são treinados para transportar pets com segurança e conforto."],
+            "context": [""]
+        },
+        {
+            "tag": "cancellation",
+            "patterns": ["Qual é a política de cancelamento?",
+            "Como é o cancelamento?",
+            "oq acontece se cancelar?",
+            "Como fazemos para cancelar?",
+            "Como é o cancelamento?"],
+            "responses": ["Se você precisar cancelar o transporte, pedimos que nos informe com pelo 5 minutos de antecedência. Caso contrário, pode haver uma taxa de cancelamento."],
+            "context": [""]
+        },
+        {
+            "tag": "travel_together",
+            "patterns": ["Posso viajar com meu pet?",
+            "posso ir com meu pet?", 
+            "podemos viajar juntos?", 
+            "posso ir com ele?", 
+            "é possivel irmos juntos?"],
+            "responses": ["No momento ainda não possuimos essa função"],
+            "context": [""]
+        },
+        {
+            "tag": "product_delivery",
+            "patterns": ["Vocês podem entregar meus produtos na minha casa?",
+            "Vocês podem entregar ração na minha casa?",
+            "Vocês podem entregar produtos na minha casa?",
+            "Vocês podem entregar shampoo na minha casa?",
+            "Vocês podem entregar os brinquedos na minha casa?"],
+            "responses": ["Sim, podemos entregar ração e outros produtos na sua casa"],
+            "context": [""]
+        },
+        {
+            "tag": "transport_price",
+            "patterns": ["Qual é o preço do transporte?",
+            "preço do transporte?",
+            "Qual é o preço?",
+            "QUanto custa?",
+            "Quanto custa para transporta?"],
+            "responses": ["O preço depende do tamanho e do destino do pet."],
+            "context": [""]
+        },
+        {
+            "tag": "anything_else",
+            "patterns": [],
+            "responses": ["Desculpa, não entendi o que você falou, tente novamente!"],
+            "context": [""]
+          }
+    ]
+}
