@@ -2,7 +2,7 @@
     "intents": [
         {
             "tag": "welcome",
-            "patterns": ["Boa noite", "Boa tarde", "Bom dia", "Oi", "Olá", "Hello", "Hi", "good night"],
+            "patterns": ["Oi", "Olá", "Hello", "Hi", "good night"],
             "responses": ["Olá, eu sou a sua assistente Virtual, em que posso te ajudar?"],
             "context":[""]
         },
