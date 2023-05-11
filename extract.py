@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import nltk
 from nltk.stem import WordNetLemmatizer
-lemmatizer = WordNetLemmatizer
+lemmatizer = WordNetLemmatizer()
 
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
@@ -11,7 +11,7 @@ classes = pickle.load(open('classes.pkl', 'rb'))
 
 def clear_writing(writing):
     sentence_words = nltk.word_tokenize(writing)
-    return [lemmatizer.lemmatize(words.lower()) for word in sentence_words]
+    return [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
 
 def bag_of_words(writing, words):
     sentence_words = clear_writing(writing)
@@ -39,4 +39,5 @@ def get_response(intents, intents_json):
             result = random.choice(idx['responses'])
             break
     return result
+
 

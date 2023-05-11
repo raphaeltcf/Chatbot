@@ -33,21 +33,16 @@ def send():
         Chat.config(state=DISABLED)
         Chat.yview(END)
 
-# Cria a janela do chat
 Chat = Text(base, bd=0, bg="white", height="8", width="50", font="Arial",)
 Chat.config(state=DISABLED)
 
-# Vincula a barra de rolagem à janela de bate-papo
 scrollbar = Scrollbar(base, command=Chat.yview)
 Chat['yscrollcommand'] = scrollbar.set
 
-# Cria o botão de envio de mensagem, onde o comando envia para a função de send
 SendButton = Button(base, font=("Verdana", 10, 'bold'), text="Enviar", width="12", height=2, bd=0, bg="#666", activebackground="#333", fg='#ffffff', command=send)
 
-# Cria o box de texto
 EntryBox = Text(base, bd=0, bg="white", width="29", height="2", font="Arial")
 
-# Coloca todos os componentes na tela
 scrollbar.place(x=376, y=6, height=386)
 Chat.place(x=6, y=6, height=386, width=370)
 EntryBox.place(x=128, y=401, height=50, width=260)
