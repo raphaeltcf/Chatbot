@@ -7,6 +7,36 @@
             "context":[""]
         },
         {
+            "tag": "goodM",
+            "patterns": ["Bom dia", "bom d", "good morning", "buenos dias"],
+            "responses": ["Bom dia, eu sou a sua assistente Virtual, em que posso te ajudar?"],
+            "context":[""]
+        },
+        {
+            "tag": "goodA",
+            "patterns": ["Boa tarde", "tarde boa", "buenas tardes", "good afternoon"],
+            "responses": ["Boa tarde, eu sou a sua assistente Virtual, em que posso te ajudar?"],
+            "context":[""]
+        },
+        {
+            "tag": "goodN",
+            "patterns": ["Boa noite", "Buenas noches", "good night"],
+            "responses": ["Boa noite, eu sou a sua assistente Virtual, em que posso te ajudar?"],
+            "context":[""]
+        },
+        {
+            "tag": "types",
+            "patterns": ["quais são seus servços?", "serviços?", "Quais os serviços?", "vocês prestam quais servicos?", "quais servicos são ofertados?", "qual seus servios?", "quais são os atendimentos?", "o que vocês fazem?", "quais dos seus serviços eu posso utilizar?", "quais servicos vcs tem?"],
+            "responses": ["Nos temos o serviço de buscar o pet na sua residencia até o petshop para fazer o serviço da sua escolha, tambem temos nossa loja virtual, onde você pode compra varios itens para o seu pet"],
+            "context":[""]
+        },
+        {
+            "tag": "stor",
+            "patterns": ["como funciona a loja?", "como é a loja?", "o que você pode fazer na loja?", "o que vocês vendem na sua loja?", "loja", "oq tem na loja?"],
+            "responses": ["Na nossa loja você pode encontrar varios itens para o seu pet"],
+            "context":[""]
+        },
+        {
             "tag": "who_are_you",
             "patterns": ["qual seu nome?", "quem é você?", "como você se chama?", "nome?"],
             "responses": ["Meu nome é Nine Nine. Bem-vindo(a) à 99 Pets! Em que posso ajudar?"],
