@@ -80,7 +80,8 @@ $ python bot.py
 ```
 
 
-
-
 ## 🛠️ built with
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40" height="40" />
+
+### Referencias: 
+O tutorial: [Como criar um chatbot usando aprendizado profundo e Python?](https://medium.com/luizalabs/como-criar-um-chatbot-usando-aprendizado-profundo-e-python-47821402367)
