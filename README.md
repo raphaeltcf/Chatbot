@@ -1,14 +1,14 @@
 # Chatbot
 
 Um Chatbot utilizando a linguagem Python e as bibliotecas NLTK, Tensorflow, Keria, Numpy e Tkinter. 
-Esse Chatbot foi feito para um projeto de faculdade ao qual precisei fazer um chatbot para um petshop chamado 99 Pets
+Esse Chatbot foi feito para um projeto de faculdade ao qual precisei fazer um chatbot para um petshop chamado 99 Pets. 
 
 
 ## 🚀 Começo
 
 Estas instruções permitirão que você obtenha uma cópia de trabalho do projeto em sua máquina local para fins de desenvolvimento e teste.
 
-### 📋 Prerequisites
+### 📋 Pré requisitos
 
 Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
 [Git](https://git-scm.com).
@@ -78,6 +78,10 @@ $ python train.py
 $ python bot.py
 
 ```
+
+## API 
+
+Caso você queira utilizar a API do Chatbot, ela está feita no framework flask no repositorio [API CHATBOT(https://github.com/raphaeltcf/API-Chatbot)
 
 
 ## 🛠️ built with
